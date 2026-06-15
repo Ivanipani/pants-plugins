@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poochella-pants"
+version = "0.1.0"
+description = "Shared pantsbuild plugin for poochella: VCS-derived Docker image tags."
+requires-python = ">=3.9"
+# Intentionally no pantsbuild.pants dependency: pants resolves the plugin into
+# the same venv as itself and supplies the matching version.
+
+[tool.setuptools]
+packages = ["poochella_pants"]
