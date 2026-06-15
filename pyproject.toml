@@ -10,5 +10,5 @@ requires-python = ">=3.9"
 # Intentionally no pantsbuild.pants dependency: pants resolves the plugin into
 # the same venv as itself and supplies the matching version.
 
-[tool.setuptools]
-packages = ["poochella_pants"]
+[tool.setuptools.packages.find]
+where = ["src"]
