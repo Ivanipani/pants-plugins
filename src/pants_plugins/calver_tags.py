@@ -49,7 +49,7 @@ async def calver_image_tags(request: CalverImageTagsRequest) -> DockerImageTags:
         worktree._create_git_cmdline(["rev-parse", "--short=12", "HEAD"])
     ).decode().strip()
 
-    return DockerImageTags([calver, f"{calver}-{sha}"])
+    return DockerImageTags([calver, f"{calver}-{sha}", sha])
 
 
 def rules():
