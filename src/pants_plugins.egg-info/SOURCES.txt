@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/pants_plugins/__init__.py
+src/pants_plugins/calver_tags.py
+src/pants_plugins/register.py
+src/pants_plugins.egg-info/PKG-INFO
+src/pants_plugins.egg-info/SOURCES.txt
+src/pants_plugins.egg-info/dependency_links.txt
+src/pants_plugins.egg-info/top_level.txt

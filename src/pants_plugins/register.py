@@ -1,4 +1,4 @@
-from poochella_pants import calver_tags
+from pants_plugins import calver_tags
 
 
 def rules():
